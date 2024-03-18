@@ -2,7 +2,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig 
 
 metadata: 
-    name: mp12-cluster-1 
+    name: mp12-cluster-2 
     region: us-east-1 
     
 availabilityZones:
