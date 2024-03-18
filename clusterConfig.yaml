@@ -14,3 +14,6 @@ nodeGroups:
     instanceType: t2.medium 
     desiredCapacity: 2
     privateNetworking: true
+    ssh:
+      allow: true # Enable SSH access
+      publicKeyName: rafaelcurranuiuc # Specify your EC2 key pair name
